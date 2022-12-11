@@ -82,7 +82,9 @@ h2{
   color: #303236 ;
   border-radius: 4px;
   padding: 1%;
-  width: 90%
+  width: 90%;
+  margin-left: 13%;
+
 }
 
 
@@ -179,6 +181,17 @@ figure{
     margin-left: 15%;
     font-size: 17px;
     color: #FAD038;
+
+  }
+
+  h2{
+    background: #FAD038;
+    color: #303236 ;
+    border-radius: 4px;
+    padding: 1%;
+    width: 90%;
+    margin-left: 15%;
+    font-size: 17px;
 
   }
 
