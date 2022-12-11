@@ -1,0 +1,193 @@
+body {
+  background-color: #303236;
+  margin: 0;
+  font-family: monospace;
+}
+
+/*nav bar STARTS */
+
+/*changed to 46 from 40 for border*/
+.navBox{
+  width: 46px;
+  height: 100%;
+  background-color: #4C4B47;
+  position: fixed;
+
+
+
+}
+
+
+nav>ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 20%;
+  position: fixed;
+
+}
+
+
+
+.BtnIcon{
+  width: 40px;
+  margin-top:33%;
+  border: solid black 3px;
+
+}
+
+/* this creates the hover effect on .BtnIcon*/
+.BtnIcon:hover{
+border: solid #FAD038 3px;
+}
+
+
+
+/*nav bar ENDS */
+
+
+.container{
+ color: #FAD038;
+text-align: center;
+padding: 5%;
+font-size: 20px;
+margin-left: 10%;
+}
+
+.links{
+  text-decoration: none;
+  color: white;
+  padding: 1%
+}
+
+/* this creates the hover effect on .links*/
+.links:hover{
+  background: #FAD038;
+  color: #303236 ;
+  border-radius: 4px;
+}
+
+p{
+  margin: 3%;
+}
+
+address{
+  margin-left: 13%;
+  font-size: 30px;
+  color: #FAD038;
+
+}
+
+h2{
+  background: #FAD038;
+  color: #303236 ;
+  border-radius: 4px;
+  padding: 1%;
+  width: 90%
+}
+
+
+header{
+  padding: 5px 0 5px 5px;
+  background-color:#FAD038 ;
+  width: 100%;
+  text-align:left;
+  position: fixed;
+  left: 46px
+
+}
+
+/*Sale Cards STARTS */
+.card{
+  width: 90%;
+  border-radius: 4%;
+  margin-top: 2%;
+}
+
+.Get{
+  background: #FAD038;
+  color: #303236 ;
+  border-radius: 4px;
+  padding: 3%;
+  font-size: 30px;
+  text-decoration: none;
+  position: static;
+  width: 90%;
+  display: block;
+  margin-bottom: 2%
+}
+
+/* this creates the hover effect on Get buttons*/
+
+.Get:hover{
+  background: #303236;
+  color: #FAD038 ;
+}
+
+figure{
+  float: left;
+	width: 22%;
+  border-radius: 4%;
+  background-color: #4C4B47;
+  margin: 0 3.5% 0 3.5%;
+  padding: 2%;
+  margin-bottom: 3%;
+
+}
+
+figcaption{
+  color: #FAD038;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.sales{
+padding: 10%;
+text-align: center;
+margin-left: 10%;
+
+
+}
+
+/*Sale Cards ENDS */
+
+/*changes the layout of the website when the user uses his phone*/
+@media screen and (max-width: 665px){
+figure{
+	width: 90%;
+	display: block;
+	margin-bottom: 10%;
+  border-radius: 5%;
+  background-color: #4C4B47;
+  padding: 4%;
+  margin-left: 5%;
+
+	}
+
+  p{
+    margin: 4%;
+  }
+
+  .container{
+   color: #FAD038;
+  text-align: center;
+  padding: 5%;
+  font-size: 15px;
+  margin-left: 10%;
+  }
+
+  address{
+    margin-left: 15%;
+    font-size: 17px;
+    color: #FAD038;
+
+  }
+
+  figcaption{
+    color: #FAD038;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+
+  }
+
+}
