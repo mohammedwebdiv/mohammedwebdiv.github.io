@@ -151,7 +151,7 @@ margin-left: 10%;
 /*Sale Cards ENDS */
 
 /*changes the layout of the website when the user uses his phone*/
-@media screen and (max-width: 665px){
+@media screen and (max-width: 900px){
 figure{
 	width: 90%;
 	display: block;
