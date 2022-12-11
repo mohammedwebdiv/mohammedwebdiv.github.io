@@ -126,7 +126,7 @@ header{
   cursor: pointer;
 }
 
-figure{
+.group{
   float: left;
 	width: 22%;
   border-radius: 4%;
@@ -155,7 +155,7 @@ margin-left: 10%;
 
 /*changes the layout of the website when the user uses his phone*/
 @media screen and (max-width: 1171px){
-figure{
+.group{
 	width: 90%;
 	display: block;
 	margin-bottom: 10%;
